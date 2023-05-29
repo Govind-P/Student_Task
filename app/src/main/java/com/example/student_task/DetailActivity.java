@@ -33,7 +33,7 @@ public class DetailActivity extends AppCompatActivity {
         });
         delete.setOnClickListener((android.view.View view) -> {
             new AlertDialog.Builder(DetailActivity.this)
-                    .setTitle("Do you want to remove "+name+ " from the list?")
+                    .setTitle("Do you want to remove "+MainActivity.datalist.get(index)+ " from the list?")
                     .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialogInterface, int i) {
