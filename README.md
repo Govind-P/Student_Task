@@ -1,7 +1,7 @@
 # Student_Task
 UI design for student task management app
    
-   Student Task App is an app designed to manage student task. No real-time database is used(Focused on UI). The app is designed such that is layout adapts well to different screen sizes. The app consist of a main activity page which is divided into three fragments. One fragment deals with task, other with notification and last one with settings. Main activity consist of toolbar with app title and bottom navigation bar to navigate into fragments.
+   This is an app designed to manage student task. No real-time database is used(Focused on UI). The app is designed such that it's layout adapts well to different screen sizes. The app consist of a main activity page which is divided into three fragments. One fragment deals with task, other with notification and last one with settings. Main activity consist of toolbar with app title and bottom navigation bar to navigate into fragments.
 
 TaskFragment:
 Task fragment consist of card view with task title and a check box to set the task as completed. Two floating buttons are present at left and right bottom to filter and add task. By clicking on add task button user can add task. The title of task is only saved in an array list to display it on task page. Filter button is used to apply filter in task. In this app we can choose filter and the chosen filter is shown in task page. When selected a task it will direct the user in to a task detail page.
